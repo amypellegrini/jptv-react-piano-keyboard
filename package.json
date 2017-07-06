@@ -1,0 +1,22 @@
+{
+  "name": "jptv-react-piano-keyboard",
+  "version": "1.0.0",
+  "description": "JazzPianoTV React Piano Keyboard Component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amypellegrini/jptv-react-piano-keyboard.git"
+  },
+  "author": "Amy Pellegrini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amypellegrini/jptv-react-piano-keyboard/issues"
+  },
+  "homepage": "https://github.com/amypellegrini/jptv-react-piano-keyboard#readme",
+  "devDependencies": {
+    "tape": "^4.7.0"
+  }
+}
