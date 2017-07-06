@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"
-"http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd">
-<svg xml:space="preserve" width="161px" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161px" height="120">
 
 <!-- 
      Copyright (c)  2005 Lauri Kaila.
@@ -29,7 +26,7 @@
 -->
 
 <!-- White keys  -->
-<rect style="fill:white;stroke:black" x=  "0" y="0" width="23" height="120" />
+<rect style="fill:blue;stroke:black" x=  "0" y="0" width="23" height="120" />
 <rect style="fill:white;stroke:black" x= "23" y="0" width="23" height="120" />
 <rect style="fill:white;stroke:black" x= "46" y="0" width="23" height="120" />
 <rect style="fill:white;stroke:black" x= "69" y="0" width="23" height="120" />

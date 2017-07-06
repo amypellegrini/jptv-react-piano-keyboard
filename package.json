@@ -18,5 +18,8 @@
   "homepage": "https://github.com/amypellegrini/jptv-react-piano-keyboard#readme",
   "devDependencies": {
     "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1"
   }
 }
