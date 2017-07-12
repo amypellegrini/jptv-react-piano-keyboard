@@ -26,7 +26,7 @@
 -->
 
 <!-- White keys  -->
-<rect style="fill:blue;stroke:black" x=  "0" y="0" width="23" height="120" />
+<rect style="fill:#73C2FB;stroke:black" x=  "0" y="0" width="23" height="120" />
 <rect style="fill:white;stroke:black" x= "23" y="0" width="23" height="120" />
 <rect style="fill:white;stroke:black" x= "46" y="0" width="23" height="120" />
 <rect style="fill:white;stroke:black" x= "69" y="0" width="23" height="120" />
