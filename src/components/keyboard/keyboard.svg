@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="120">
 
 <!-- 
      Copyright (c)  2005 Lauri Kaila.
@@ -47,14 +47,22 @@
 <rect style="fill:white;stroke:black" x="414" y="0" width="23" height="120" ry="3" />
 <rect style="fill:white;stroke:black" x="437" y="0" width="23" height="120" ry="3" />
 <rect style="fill:white;stroke:black" x="460" y="0" width="23" height="120" ry="3" />
-
 <rect style="fill:white;stroke:black" x="483" y="0" width="23" height="120" ry="3" />
 <rect style="fill:white;stroke:black" x="506" y="0" width="23" height="120" ry="3" />
 <rect style="fill:white;stroke:black" x="529" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="552" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="575" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="598" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="621" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="644" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="667" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="690" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="713" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="736" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="759" y="0" width="23" height="120" ry="3" />
+<rect style="fill:white;stroke:black" x="782" y="0" width="23" height="120" ry="3" />
 <rect style="fill:white;stroke:black" x="" y="0" width="23" height="120" ry="3" />
-<rect style="fill:white;stroke:black" x="" y="0" width="23" height="120" ry="3" />
-<rect style="fill:white;stroke:black" x="" y="0" width="23" height="120" ry="3" />
-<rect style="fill:white;stroke:black" x="" y="0" width="23" height="120" ry="3" />
+
 
 
 <!-- Black keys (overlap with the white keys) -->
@@ -70,6 +78,12 @@
 <rect style="fill:black;stroke:black" x="289.25" y="0" width="13" height="80" ry="1" />
 <rect style="fill:black;stroke:black" x="315.25" y="0" width="13" height="80" ry="1" />
 <rect style="fill:black;stroke:black" x="341.75" y="0" width="13" height="80" ry="1" />
+
+<rect style="fill:black;stroke:black" x="382.33333" y="0" width="13" height="80" ry="1" />
+<rect style="fill:black;stroke:black" x="409.66666" y="0" width="13" height="80" ry="1" />
+<rect style="fill:black;stroke:black" x="450.25" y="0" width="13" height="80" ry="1" />
+<rect style="fill:black;stroke:black" x="476.25" y="0" width="13" height="80" ry="1" />
+<rect style="fill:black;stroke:black" x="502.75" y="0" width="13" height="80" ry="1" />
 
 
 </svg>
