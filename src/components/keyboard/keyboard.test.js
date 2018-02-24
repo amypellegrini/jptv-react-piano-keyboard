@@ -74,7 +74,7 @@ test('Keyboard component', nest => {
     const Keyboard = createKeyboard(React);
     const $ = dom.load(render(<Keyboard />));
     const actual = $('svg').find('rect')[4].attribs.id;
-    const expected = 'e1';
+    const expected = 'e1  ';
 
     assert.equal(actual, expected, message);
     assert.end();
