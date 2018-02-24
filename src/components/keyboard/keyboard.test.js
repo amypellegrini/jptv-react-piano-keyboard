@@ -55,4 +55,28 @@ test('Keyboard component', nest => {
     assert.equal(actual, expected, message);
     assert.end();
   });
+
+  nest.test('. 4th key', assert => {
+    const message = '4th key should have an id of "d1".';
+
+    const Keyboard = createKeyboard(React);
+    const $ = dom.load(render(<Keyboard />));
+    const actual = $('svg').find('rect')[3].attribs.id;
+    const expected = 'd1';
+
+    assert.equal(actual, expected, message);
+    assert.end();
+  });
+
+  nest.test('. 5th key', assert => {
+    const message = '5th key should have an id of "e1".';
+
+    const Keyboard = createKeyboard(React);
+    const $ = dom.load(render(<Keyboard />));
+    const actual = $('svg').find('rect')[4].attribs.id;
+    const expected = 'e1';
+
+    assert.equal(actual, expected, message);
+    assert.end();
+  });
 });

@@ -6,10 +6,10 @@ export default React => () => {
   const keys = [...Array(5)].map((value, index) => {
     let id = 'a0';
 
-    if (index === 1) {
-      id = 'b0';
-    } else if (index === 2) {
-      id = 'c1';
+    if (index > 0 && index < 3) {
+      id = index === 1 ? 'b0' : 'c1';
+    } else if (index >= 3 ) {
+      id = index === 3 ? 'd1' : 'e1';
     }
 
     return (
