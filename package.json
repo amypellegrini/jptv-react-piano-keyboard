@@ -4,7 +4,7 @@
   "description": "JazzPianoTV React Piano Keyboard Component.",
   "main": "index.js",
   "scripts": {
-    "test": "tape -r babel-register -r ignore-styles 'src/**/*.test.js' | faucet"
+    "test": "tape -r babel-register -r ignore-styles src/**/*.test.js | faucet"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/amypellegrini/jptv-react-piano-keyboard#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",
     "cheerio": "^1.0.0-rc.2",
@@ -24,11 +27,13 @@
     "ignore-styles": "^5.0.1",
     "standard": "^10.0.2",
     "svg-react-loader": "^0.4.4",
-    "tape": "^4.7.0"
+    "tape": "^4.7.0",
+    "webpack": "^3.11.0"
   },
   "dependencies": {
     "babel-preset-env": "^1.6.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "svg.js": "^2.6.4"
   }
 }
