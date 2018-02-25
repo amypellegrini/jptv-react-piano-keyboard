@@ -21,26 +21,45 @@ test('Keyboard component', nest => {
   });
 
   nest.test('. first key', assert => {
-    const message = 'First key should have an id of "a0".';
+    assert.plan(2);
+
+    const idMessage = 'First key should have an id of "a0".';
+    const colorMessage = 'First key should be white.';
 
     const Keyboard = createKeyboard(React);
     const $ = dom.load(render(<Keyboard />));
-    const actual = $('svg').find('rect')[0].attribs.id;
-    const expected = 'a0';
+    const key = $('svg').find('rect')[0];
 
-    assert.equal(actual, expected, message);
+    const isWhite = key.attribs.style.match('fill:white').length > 0;
+    const id = key.attribs.id;
+    const expectedId = 'a0';
+    const expectedColor = true;
+
+    assert.equal(id, expectedId, idMessage);
+    assert.equal(isWhite, expectedColor, colorMessage);
     assert.end();
   });
 
   nest.test('. second key', assert => {
-    const message = 'Second key should have an id of "b0".';
+    assert.plan(2);
+
+    const idMessage = 'Second key should have an id of "b0".';
+    const colorMessage = 'Second key should be white.';
 
     const Keyboard = createKeyboard(React);
     const $ = dom.load(render(<Keyboard />));
-    const actual = $('svg').find('rect')[1].attribs.id;
-    const expected = 'b0';
 
-    assert.equal(actual, expected, message);
+    const id = $('svg').find('rect')[1].attribs.id;
+    const expectedId = 'b0';
+
+    const isWhite = $('svg')
+      .find('rect')[1]
+      .attribs.style
+      .match('fill:white').length > 0;
+    const expectedColor = true;
+
+    assert.equal(id, expectedId, idMessage);
+    assert.equal(isWhite, expectedColor, colorMessage);
     assert.end();
   });
 
@@ -74,7 +93,7 @@ test('Keyboard component', nest => {
     const Keyboard = createKeyboard(React);
     const $ = dom.load(render(<Keyboard />));
     const actual = $('svg').find('rect')[4].attribs.id;
-    const expected = 'e1  ';
+    const expected = 'e1';
 
     assert.equal(actual, expected, message);
     assert.end();

@@ -1,32 +1,28 @@
 import createKey from '../key/key';
+import keysData from './keysData';
 
 export default React => () => {
   const Key = createKey(React);
 
-  const keys = [...Array(5)].map((value, index) => {
-    let id = 'a0';
-
-    if (index > 0 && index < 3) {
-      id = index === 1 ? 'b0' : 'c1';
-    } else if (index >= 3 ) {
-      id = index === 3 ? 'd1' : 'e1';
-    }
+  const keys = keysData.map((value, index) => {
+    const type = value.id.length === 2 ? 'white' : 'black';
 
     return (
-      <Key key={index}
-        id = { id }
-        x={ index * '23' } />
+      <Key key={ index }
+        type = { type }
+        id = { value.id }
+        x={ value.x } />
     );
   });
 
   return (
-    <div>
+    <div className="jptv-keyboard-wrapper">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        width="300"
-        height="300">
+        width="1197"
+        height="120">
         { keys }
       </svg>
     </div>
