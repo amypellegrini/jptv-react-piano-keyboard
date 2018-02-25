@@ -1,5 +1,6 @@
 import createKey from '../key/key';
 import keysData from './keysData';
+import './keyboard.css';
 
 export default React => () => {
   const Key = createKey(React);
