@@ -19,4 +19,5 @@
   width: 200px;
   height: 81px;
   outline: 3px solid #ff6a00;
+  cursor: ew-resize;
 }

@@ -12,7 +12,8 @@ export default React => props => {
   }
 
   return (
-    <rect style={{fill:props.type,stroke:'black'}}
+    <rect style={ { fill: props.type, stroke:'black' } }
+        onMouseEnter={ props.onMouseEnter }
         x={ props.x }
         y="0"
         width={ width }
