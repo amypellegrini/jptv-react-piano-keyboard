@@ -24,7 +24,6 @@ export default React => {
       this.setState({
         displayNote: event.target.id
       });
-      console.log(event.target);
     }
 
     createKeys() {
