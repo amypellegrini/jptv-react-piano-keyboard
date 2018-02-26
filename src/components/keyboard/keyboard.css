@@ -1,0 +1,22 @@
+.jptv-keyboard {
+  width: 800px;
+}
+
+.jptv-keyboard .jptv-keyboard-wrapper {
+  overflow: hidden;
+}
+
+.jptv-keyboard .jptv-small-keyboard {
+  width: 800px;
+  height: 81px;
+  position: relative;
+}
+
+.jptv-keyboard .jptv-small-keyboard .slide-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 81px;
+  outline: 3px solid #ff6a00;
+}
