@@ -27,8 +27,17 @@ header p {
   margin: 0;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h4 {
   margin: 0;
   font-family: 'Playfair Display SC', 'Times New Roman', Times, serif;
   font-size: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
 }
