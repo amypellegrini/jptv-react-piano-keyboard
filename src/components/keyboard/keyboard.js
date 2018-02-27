@@ -1,8 +1,9 @@
 import './keyboard.css';
 
-import createKey from '../key/key';
 import keysData from './keysData';
+import createKey from '../key/key';
 import createNoteDisplay from '../noteDisplay/noteDisplay';
+import createViewBox from '../viewBox/viewBox';
 
 export default React => {
   class Keyboard extends React.Component {
@@ -26,12 +27,14 @@ export default React => {
       const Key = createKey(React);
       
       const keys = keysData.map((value, index) => {
-        const type = value.id.length === 2 ? 'white' : 'black';
-      
+        const color = value.id.length === 2 ? 'white' : 'black';
+        const highlight = value.id === this.state.displayNote;
+
         return (
           <Key key={ index }
             onMouseEnter={ this.onKeyMouseEnter.bind(this) }
-            type = { type }
+            color = { color }
+            highlight = { highlight }
             id = { value.id }
             x={ value.x } />
         );
@@ -64,6 +67,7 @@ export default React => {
     render() {
       const keys = this.createKeys();
       const NoteDisplay = createNoteDisplay(React);
+      const ViewBox = createViewBox(React);
 
       return (
         <div className="jptv-keyboard">
@@ -89,10 +93,7 @@ export default React => {
               viewBox="0 0 1197 120">
               { keys }
             </svg>
-            <div draggable="true"
-              className="slide-box"
-              style={ { left: this.state.offsetX } }>
-            </div>
+            <ViewBox style={ { left: this.state.offsetX } } />
             <input type="range" width="800" onChange={ this.onChange.bind(this) } />
           </div>
         </div>
