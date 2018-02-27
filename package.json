@@ -2,7 +2,7 @@
   "name": "jptv-react-piano-keyboard",
   "version": "1.0.0",
   "description": "JazzPianoTV React Piano Keyboard Component.",
-  "main": "index.js",
+  "main": "src/components/keyboard.js",
   "scripts": {
     "test": "tape -r babel-register -r ignore-styles src/**/*.test.js | faucet"
   },
