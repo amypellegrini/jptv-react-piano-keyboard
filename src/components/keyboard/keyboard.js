@@ -96,6 +96,7 @@ export default React => {
             <ViewBox style={ { left: this.state.offsetX } } />
             <input type="range" width="800" onChange={ this.onChange.bind(this) } />
           </div>
+          <p><span className="caret">^</span>C4 (middle C)</p>
         </div>
       );
     }

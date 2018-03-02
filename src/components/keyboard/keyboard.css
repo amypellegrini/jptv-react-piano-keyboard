@@ -30,3 +30,16 @@
   left: 0;
   opacity: 0;
 }
+
+
+.jptv-keyboard p {
+  text-align: center;
+  position: relative;
+}
+
+.jptv-keyboard p .caret {
+  position: absolute;
+  top: -1rem;
+  margin-left: 6px;
+  font-weight: 600;
+}
