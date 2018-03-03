@@ -1,11 +1,11 @@
 import './css/demo.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import createKeyboard from './components/keyboard/keyboard';
+import createKeyboardViewer from './components/keyboard/keyboard';
 
-const Keyboard = createKeyboard(React);
+const KeyboardViewer = createKeyboardViewer(React);
 
 ReactDOM.render(
-  <Keyboard />,
+  <KeyboardViewer />,
   document.getElementById('root')
 );
