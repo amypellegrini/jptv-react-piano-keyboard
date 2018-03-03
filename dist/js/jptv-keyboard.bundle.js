@@ -9765,9 +9765,9 @@ var _keyboard2 = _interopRequireDefault(_keyboard);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Keyboard = (0, _keyboard2.default)(_react2.default);
+var KeyboardViewer = (0, _keyboard2.default)(_react2.default);
 
-_reactDom2.default.render(_react2.default.createElement(Keyboard, null), document.getElementById('root'));
+_reactDom2.default.render(_react2.default.createElement(KeyboardViewer, null), document.getElementById('root'));
 
 /***/ }),
 /* 82 */
@@ -22559,6 +22559,16 @@ exports.default = function (React) {
             ),
             React.createElement(ViewBox, { style: { left: this.state.offsetX } }),
             React.createElement('input', { type: 'range', width: '800', onChange: this.onChange.bind(this) })
+          ),
+          React.createElement(
+            'p',
+            null,
+            React.createElement(
+              'span',
+              { className: 'caret' },
+              '^'
+            ),
+            'C4 (middle C)'
           )
         );
       }
