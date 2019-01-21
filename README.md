@@ -1,10 +1,8 @@
-# jptv-react-piano-keyboard
+# JazzPianoTV React Piano Keyboard Component
 
-JazzPianoTV React Piano Keyboard Component.
+This component is inteded to be consumed by JPTV and related projects/websites.
 
-To see properly the demo page you need to build js and css files:
+Next setps in development process:
 
-```
-> npm install
-> webpack
-```
+- Re-work and this component in its current form so it can be published as an MVP, not just a prototype
+- Release a public 1.0.0 version of the a React consumable component to be used in JPTV
