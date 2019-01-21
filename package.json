@@ -4,7 +4,9 @@
   "description": "JazzPianoTV React Piano Keyboard Component.",
   "main": "src/components/keyboard.js",
   "scripts": {
-    "test": "tape -r babel-register -r ignore-styles src/**/*.test.js | faucet"
+    "test": "tape -r babel-register -r ignore-styles src/**/*.test.js | faucet",
+    "build-demo": "echo 'TODO'",
+    "build": "echo 'TODO'"
   },
   "repository": {
     "type": "git",
